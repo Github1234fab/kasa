@@ -5,9 +5,10 @@ import About from "./pages/About";
 import Logement from "./pages/Logement";
 import Erreur from "./pages/Erreur";
 
+
 const App = () => {
   return (
-    <div className="App">
+    <div className="App"> 
       <BrowserRouter>
       <Routes>
         <Route path = "/" element = {<Home />}/>
