@@ -1,0 +1,21 @@
+@mixin font_card{
+font-family: Montserrat;
+font-weight: 500;
+font-size: 18px;
+color: $blanc;
+}
+
+@mixin font_nav{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: $rouge;
+    }
+
+@mixin font_tag{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: $blanc;
+   line-height: 19.96px;
+}

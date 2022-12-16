@@ -1,24 +1,25 @@
 // import './App.css';
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Logement from "./pages/Logement";
 import Erreur from "./pages/Erreur";
-
+// import Collection from "./components/Collection";
 
 const App = () => {
   return (
-    <div className="App"> 
+    <div className="App">
+      {/* <Collection /> */}
       <BrowserRouter>
-      <Routes>
-        <Route path = "/" element = {<Home />}/>
-        <Route path = "/à_propos" element = {<About />}/>
-        <Route path = "/fiche_logement" element = {<Logement />}/>
-        <Route path = "/erreur_404" element = {<Erreur />}/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/à_propos" element={<About />} />
+          <Route path="/fiche_logement" element={<Logement />} />
+          <Route path="/*" element={<Erreur />} />
         </Routes>
-        </BrowserRouter>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;

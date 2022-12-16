@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Card from '../components/Card';
 
 const Home = () => {
     return (
         <div>
-            <h1 className ="test">ksqjdvbkshdvb</h1>
         <Navbar />
+        <Card title = "jérémie" />
         </div>
     );
 };

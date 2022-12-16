@@ -1,17 +1,36 @@
 @import "medias";
-
+@import "mixin";
 
 $rouge: #FF6060;
+$noir: #000000;
+$blanc: #FFFFFF;
 
 .navbar a{
- color: red;
- font-size: 14px;
  text-decoration: none;
- font-family: montserrat;
+ @include font_nav;
 }
 
 
-// .test{
-//     color : $rouge;
-//     text-decoration: line-through;
-// }
+.Card{
+    height: 340px;
+    width: 340px;
+    background: linear-gradient($rouge, $noir 230%);
+    border-radius: 10px;
+    @include font_card;
+}
+
+.card_title{
+    display: flex;
+   justify-content: center;
+}
+
+.tag{
+   height: 25px;
+   width: 115px;
+   background-color: $rouge;
+   border-radius: 10px;
+}
+
+.tag_title{
+@include font_tag;
+}

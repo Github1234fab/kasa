@@ -1,22 +1,17 @@
 import React from 'react';
-import Tag from "./Tag";
+// import Tag from "./Tag";
+import Card from './Card';
 
 
-const collection = () => {
+const Collection = () => {
     return (
         <div>
-            <Tag 
-            txt = "Cozy"
-             />
-             <Tag 
-            txt = "Canal"
-             />
-               <Tag 
-            txt = "Paris 10"
-             />
-            
+            {/* <Tag title = "Cosi" />
+            <Tag title = "Canal" />
+            <Tag title = "Paris 10" /> */}
+            <Card title = "Appart2" />
         </div>
     );
 };
 
-export default collection;
+export default Collection;

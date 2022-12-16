@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Tag = (txt) => {
+const Tag = ({title}) => {
     return (
-        <div>
-            <h3>{txt}</h3>
+        <div className = "tag">
+        <h3 className = "tag_title">{title}</h3>
         </div>
-    );
+    )
 };
+
 
 export default Tag;
