@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Card from '../components/Card';
 import Banner from '../components/Banner';
+import Header from '../components/Header';
 
 const Home = () => {
     return (
-        <div>
+        <main className='page_home'>
+                <Header />
             <Banner />
-            <Navbar />
-            <Card title = "jérémie" />
-        </div>
+            <Card />
+        </main>
     );
 };
 

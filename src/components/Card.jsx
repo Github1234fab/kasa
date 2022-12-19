@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
                 {/* //fabrication des cartes itération */}
                 {
                     Data.map((appartement) => {
+                        // sans destructuring
                         // const cover = appartement.cover;
                         // const id = appartement.id;
                         // const title = appartement.title;

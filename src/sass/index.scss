@@ -1,15 +1,13 @@
-@import "medias";
-@import "mixin";
+@import "./header";
+@import "./mixin";
+@import "./medias";
+
 
 $rouge: #FF6060;
 $noir: #000000;
 $blanc: #FFFFFF;
 
-.navbar a{
- text-decoration: none;
- @include font_nav;
-}
-
+   
 
 .Card{
     height: 340px;
@@ -36,6 +34,6 @@ $blanc: #FFFFFF;
 }
 
 .Banner{
-    height: 200px;
+    height: 600px;
     width: 200px;
 }

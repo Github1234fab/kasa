@@ -1,5 +1,5 @@
 import React from 'react';
-import Ocean from '../images/banner.jpg'
+import Ocean from '../images/banner.jpg';
 
 const Banner = () => {
     return (
