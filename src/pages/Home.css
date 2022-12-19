@@ -1,39 +1,43 @@
-.Card {
-    height: 340px;
-    width: 340px;
-    background: linear-gradient(#FF6060, #000000 230%);
-    border-radius: 10px;
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 18px;
-    color: #FFFFFF;
-  }
-  
-  .card_title {
-    display: flex;
-    justify-content: center;
-  }
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
 
+.card {
+  height: 340px;
+  width: 340px;
+  border-radius: 10px;
+}
 
+.card_visuel {
+}
 
-  /* @mixin font_card{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 18px;
-    color: $blanc;
-    }
-    
-    @mixin font_nav{
-        font-family: Montserrat;
-        font-weight: 500;
-        font-size: 14px;
-        color: $rouge;
-        }
-    
-    @mixin font_tag{
-        font-family: Montserrat;
-        font-weight: 500;
-        font-size: 14px;
-        color: $blanc;
-       line-height: 19.96px;
-    } */
+.card_overlay {
+  background: linear-gradient(#ffffff, #000000);
+}
+
+.card_link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.card_cover {
+  height: 340px;
+  width: 340px;
+  border-radius: 10px;
+}
+
+.card_title {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  z-index: 0;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}

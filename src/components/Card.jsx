@@ -18,8 +18,7 @@ import { Link } from "react-router-dom";
                         const { cover, title, id } = appartement;
                         return (
                             <div className='card' key={id} >
-                                <div className='card_image'>
-
+                                <div className='card_visuel'>
                                     <Link to={"logement/" + id} className="card_link">
                                         {/* //image */}
                                         {/* title */}
@@ -30,7 +29,6 @@ import { Link } from "react-router-dom";
                                         <div className='card_title'>
                                             <h2>{title}</h2>
                                         </div>
-
                                     </Link>
                                 </div>
                             </div>
