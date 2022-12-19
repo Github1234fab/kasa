@@ -10,7 +10,11 @@ justify-content: center;
 
 .footer_notice {
   color: #ffffff;
-  padding: 20px;
+  padding: 10px;
   font-family: Montserrat;
   font-weight: 500;
 }
+
+.footer_logo {
+    padding: 10px; 
+  }
