@@ -6,8 +6,6 @@ import Logement from "./pages/Logement";
 import Erreur from "./pages/Erreur";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-// import footer et header
-// import Collection from "./components/Collection";
 
 const App = () => {
   return (
