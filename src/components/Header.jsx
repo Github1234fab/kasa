@@ -5,17 +5,14 @@ import Logo from "../images/LOGO.png"
 
 const Header = () => {
     return (
-       <div>
-        <div className='Header'> 
-            Header
+        <div className = 'Header'>
+            <img className = 'Logo' src={Logo} alt="" />
+            <div className='header_menu'>
+                <Link to = "/" className='header_liens'>Accueil</Link>
+                <Link to= "/à_propos" className='header_liens'>À propos</Link>
             </div>
-              <img className='Logo' src={Logo} alt="" /> 
-            <div className = "navbar">
-            <Link to = "/">Accueil</Link>
-            <Link to = "/à_propos">À propos</Link>
         </div>
-        </div>
-       
+
     );
 };
 

@@ -1,39 +1,42 @@
-@import "./header";
-@import "./mixin";
-@import "./medias";
+// @import "test";
+// @import "header";
+// // @import "./mixin";
+// // @import "./medias";
 
 
-$rouge: #FF6060;
-$noir: #000000;
-$blanc: #FFFFFF;
+
+
+// $rouge: #FF6060;
+// $noir: #000000;
+// $blanc: #FFFFFF;
 
    
 
-.Card{
-    height: 340px;
-    width: 340px;
-    background: linear-gradient($rouge, $noir 230%);
-    border-radius: 10px;
-    @include font_card;
-}
+// .Card{
+//     height: 340px;
+//     width: 340px;
+//     background: linear-gradient($rouge, $noir 230%);
+//     border-radius: 10px;
+//     @include font_card;
+// }
 
-.card_title{
-    display: flex;
-   justify-content: center;
-}
+// .card_title{
+//     display: flex;
+//    justify-content: center;
+// }
 
-.tag{
-   height: 25px;
-   width: 115px;
-   background-color: $rouge;
-   border-radius: 10px;
-}
+// .tag{
+//    height: 25px;
+//    width: 115px;
+//    background-color: $rouge;
+//    border-radius: 10px;
+// }
 
-.tag_title{
-@include font_tag;
-}
+// .tag_title{
+// @include font_tag;
+// }
 
-.Banner{
-    height: 600px;
-    width: 200px;
-}
+// .Banner{
+//     height: 600px;
+//     width: 200px;
+// }
